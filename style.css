@@ -553,21 +553,13 @@ a:hover {
 .logo-mask {
     width: 100%;
     height: 120px;
-    background-color: #fff;
+    background-color: #F7EEDA;
 
-    mask-image: url("Images/white.svg");
-    mask-repeat: no-repeat;
-    mask-position: center;
-    mask-size: contain;
-
-    -webkit-mask-image: url("Images/white.svg");
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-position: center;
-    -webkit-mask-size: contain;
+    mask: url("./Images/white.svg") center / contain no-repeat;
+    -webkit-mask: url("./Images/white.svg") center / contain no-repeat;
 
     transition: background-color 0.3s ease;
 }
-
 .logo-preview__text {
     margin-top: 24px;
     color: #F7EEDA;
