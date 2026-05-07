@@ -1,0 +1,20 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 109 120" width="500" height="500">
+	<defs>
+		<radialGradient id="g1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(59.369,0,0,59.369,72.423,87.174)">
+			<stop offset="0" stop-color="#000057" stop-opacity="1"/>
+			<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+		</radialGradient>
+	</defs>
+	<style>
+		.s0 { opacity: .8;mix-blend-mode: multiply;fill: url(#g1) } 
+		.s1 { fill: #000000 } 
+		.s2 { fill: #ffffff } 
+	</style>
+	<g id="&lt;Group&gt;">
+		<path id="&lt;Path&gt;" class="s0" d="m131.79 87.17c0 32.79-26.58 59.37-59.37 59.37-32.79 0-59.37-26.58-59.37-59.37 0-32.78 26.58-59.37 59.37-59.37 32.79 0 59.37 26.59 59.37 59.37z"/>
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s1" d="m103.98 60.35c0 26.33-21.34 47.67-47.66 47.67-26.32 0-47.66-21.34-47.66-47.67 0-26.32 21.34-47.66 47.66-47.66 26.32 0 47.66 21.34 47.66 47.66z"/>
+			<path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="s2" d="m60.36 57.01l17.19 25.02h-12.64l-11.58-16.85-14.5 16.85h-3.74l16.58-19.27-16.58-24.13h12.64l10.97 15.96 13.72-15.96h3.75l-15.81 18.38zm-5.13 5.96l11.44 16.37h5.75l-14.02-20.06-1.68-2.4-10.78-15.43h-5.76l13.37 19.12 1.68 2.4z"/>
+		</g>
+	</g>
+</svg>

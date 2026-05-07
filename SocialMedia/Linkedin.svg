@@ -1,0 +1,23 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 107 116" width="500" height="500">
+	<defs>
+		<radialGradient id="g1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(59.369,0,0,59.369,70.279,79.4)">
+			<stop offset="0" stop-color="#000057" stop-opacity="1"/>
+			<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+		</radialGradient>
+	</defs>
+	<style>
+		.s0 { opacity: .8;mix-blend-mode: multiply;fill: url(#g1) } 
+		.s1 { fill: #000000 } 
+		.s2 { fill: #ffffff } 
+	</style>
+	<g id="&lt;Group&gt;">
+		<path id="&lt;Path&gt;" class="s0" d="m129.65 79.4c0 32.79-26.58 59.37-59.37 59.37-32.79 0-59.37-26.58-59.37-59.37 0-32.79 26.58-59.37 59.37-59.37 32.79 0 59.37 26.58 59.37 59.37z"/>
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s1" d="m101.68 57.35c0 26.32-21.34 47.66-47.66 47.66-26.32 0-47.66-21.34-47.66-47.66 0-26.32 21.34-47.66 47.66-47.66 26.32 0 47.66 21.34 47.66 47.66z"/>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Compound Path&gt;" class="s2" d="m34.92 46.19h8.2v26.32h-8.2zm4.1-13.08c2.62 0 4.75 2.13 4.75 4.74 0 2.62-2.13 4.75-4.75 4.75-2.62 0-4.75-2.13-4.75-4.75 0-2.61 2.13-4.74 4.75-4.74z"/>
+				<path id="&lt;Path&gt;" class="s2" d="m48.25 46.19h7.85v3.6h0.11c1.09-2.07 3.76-4.25 7.75-4.25 8.28 0 9.81 5.45 9.81 12.53v14.44h-8.18v-12.8c0-3.05-0.06-6.98-4.25-6.98-4.26 0-4.91 3.33-4.91 6.76v13.02h-8.18z"/>
+			</g>
+		</g>
+	</g>
+</svg>

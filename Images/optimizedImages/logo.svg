@@ -1,0 +1,18 @@
+<svg width="1024" height="1024" viewBox="-10 -10 924 924" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="#DEDEDE" stroke-width="38" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M250 225 L250 720" />
+    <path d="M250 225 L470 375 L250 505" />
+
+    <circle cx="365" cy="525" r="12" fill="#DEDEDE" stroke="none" />
+
+    <path d="M365 575 L365 720" />
+    <path d="M365 720 L505 575" />
+    <path d="M505 575 L505 720" />
+    <path d="M300 330 L390 375 L300 420 Z" fill="#DEDEDE" stroke="none" />
+    <path d="M565 330 L565 720" />
+    <path d="M685 330 L685 720" />
+    <path d="M805 330 L805 720" />
+    <path d="M565 720 L805 720" />
+    <path d="M805 330 L760 375" />
+  </g>
+</svg>
