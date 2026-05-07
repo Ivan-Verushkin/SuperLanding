@@ -555,12 +555,12 @@ a:hover {
     height: 120px;
     background-color: #fff;
 
-    mask-image: url("../Images/white.svg");
+    mask-image: url("Images/white.svg");
     mask-repeat: no-repeat;
     mask-position: center;
     mask-size: contain;
 
-    -webkit-mask-image: url("../Images/white.svg");
+    -webkit-mask-image: url("Images/white.svg");
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
     -webkit-mask-size: contain;
