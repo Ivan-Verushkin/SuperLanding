@@ -198,17 +198,266 @@ a:hover {
     padding-bottom: 3px;
 }
 
-.welcome__img{
-    margin-right: 105px;
+.welcome__img-wrapper {
+    position: relative;
     width: 400px;
     height: 400px;
+    margin-right: 105px;
+    flex-shrink: 0;
+}
+
+.welcome__img {
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     margin-top: 0;
 
     object-fit: cover;
     object-position: center;
+
+    position: relative;
+    z-index: 2;
 }
 
+.ornament {
+    position: absolute;
+    z-index: 1;
+
+    width: 120px;
+    height: 120px;
+
+    background-color: #DEDEDE;
+
+    opacity: 0;
+
+    mask-image: url("Images/ornament.svg");
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: contain;
+
+    -webkit-mask-image: url("Images/ornament.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-size: contain;
+
+    animation: ornamentFloat 5s ease-in-out infinite;
+}
+
+.flower,
+.flower2 {
+    position: absolute;
+    z-index: 1;
+
+    background-color: #DEDEDE;
+    opacity: 0;
+
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: contain;
+
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-size: contain;
+
+    pointer-events: none;
+}
+
+/* flowers.svg */
+.flower {
+    width: 140px;
+    height: 140px;
+
+    mask-image: url("Images/flowers.svg");
+    -webkit-mask-image: url("Images/flowers.svg");
+
+    animation: flowerRise 6s ease-in-out infinite;
+}
+
+/* flowers2.svg */
+.flower2 {
+    width: 130px;
+    height: 130px;
+
+    mask-image: url("Images/flowers2.svg");
+    -webkit-mask-image: url("Images/flowers2.svg");
+
+    animation: flowerSpinRise 7s ease-in-out infinite;
+}
+/* Первый flowers.svg */
+.flower--1 {
+    left: -45px;
+    bottom: 5px;
+    width: 85px;
+    height: 85px;
+    animation-delay: 0.4s;
+}
+
+/* Второй flowers.svg */
+.flower--2 {
+    right: -45px;
+    bottom: 35px;
+    width: 95px;
+    height: 95px;
+    transform: scaleX(-1);
+    animation-delay: 1.8s;
+}
+
+/* Третий flowers.svg */
+.flower--3 {
+    left: 50%;
+    bottom: -35px;
+    width: 100px;
+    height: 100px;
+    transform: translateX(-50%);
+    animation-delay: 3s;
+}
+
+/* Первый flowers2.svg */
+.flower2--1 {
+    left: -20px;
+    top: 55px;
+    width: 70px;
+    height: 70px;
+    animation-delay: 0.9s;
+}
+
+/* Второй flowers2.svg */
+.flower2--2 {
+    right: -25px;
+    top: 110px;
+    width: 80px;
+    height: 80px;
+    animation-delay: 2.4s;
+}
+
+/* Третий flowers2.svg */
+.flower2--3 {
+    right: 55px;
+    bottom: -25px;
+    width: 85px;
+    height: 85px;
+    animation-delay: 3.6s;
+}
+
+.ornament--1 {
+    left: -45px;
+    bottom: 30px;
+    animation-delay: 0s;
+}
+
+.ornament--2 {
+    right: -55px;
+    bottom: 50px;
+    transform: scaleX(-1);
+    animation-delay: 0.8s;
+}
+
+.ornament--3 {
+    left: 15px;
+    top: -35px;
+    width: 90px;
+    height: 90px;
+    animation-delay: 1.5s;
+}
+
+.ornament--4 {
+    right: 10px;
+    top: -45px;
+    width: 100px;
+    height: 100px;
+    transform: rotate(25deg);
+    animation-delay: 2.2s;
+}
+
+@keyframes ornamentFloat {
+    0% {
+        opacity: 0;
+        translate: 0 40px;
+        scale: 0.7;
+    }
+
+    25% {
+        opacity: 0.8;
+    }
+
+    50% {
+        opacity: 1;
+        translate: 0 0;
+        scale: 1;
+    }
+
+    75% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 0;
+        translate: 0 -35px;
+        scale: 1.05;
+    }
+}
+
+@keyframes flowerRise {
+    0% {
+        opacity: 0;
+        translate: 0 45px;
+        scale: 0.75;
+        rotate: -8deg;
+    }
+
+    25% {
+        opacity: 0.45;
+    }
+
+    50% {
+        opacity: 0.75;
+        translate: 0 0;
+        scale: 1;
+        rotate: 4deg;
+    }
+
+    75% {
+        opacity: 0.45;
+    }
+
+    100% {
+        opacity: 0;
+        translate: 0 -35px;
+        scale: 1.08;
+        rotate: 10deg;
+    }
+}
+
+@keyframes flowerSpinRise {
+    0% {
+        opacity: 0;
+        translate: 0 55px;
+        scale: 0.65;
+        rotate: 18deg;
+    }
+
+    30% {
+        opacity: 0.35;
+    }
+
+    55% {
+        opacity: 0.65;
+        translate: 0 0;
+        scale: 1;
+        rotate: -8deg;
+    }
+
+    80% {
+        opacity: 0.4;
+    }
+
+    100% {
+        opacity: 0;
+        translate: 0 -45px;
+        scale: 1.12;
+        rotate: -20deg;
+    }
+}
 /*-----Works-----*/
 
 
