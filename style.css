@@ -647,6 +647,70 @@ a:hover {
     margin-bottom: 80px;
 }
 
+/* appear */
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        clip-path: inset(100% 100% 0 0);
+    }
+
+    to {
+        opacity: 1;
+        clip-path: inset(0 0 0 0); 
+    }
+}
+.block {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.work:nth-child(1){
+    transition-delay: 100ms;
+}
+.work:nth-child(2) {
+    transition-delay: 100ms;
+}
+.work:nth-child(3) {
+    transition-delay: 100ms;
+}
+.work:nth-child(4) {
+    transition-delay: 100ms;
+}
+
+.projects__img:nth-child(2){
+    transition-delay:  400ms;
+}
+.projects__img:nth-child(3) {
+    transition-delay: 600ms;
+}
+.projects__img:nth-child(4) {
+    transition-delay: 200ms;
+}
+.projects__img:nth-child(5) {
+    transition-delay: 400ms;
+}
+.projects__img:nth-child(6) {
+    transition-delay: 600ms;
+}
+.projects__img:nth-child(1) {
+    transition-delay: 200ms;
+}
+ 
 /* @media */
 @media(max-width: 1200px) {
     .welcome__img {
@@ -731,6 +795,30 @@ a:hover {
     .logos .title {
         margin-top: 100px;
         margin-bottom: 60px;
+    }
+
+    .projects__img:nth-child(2) {
+        transition-delay: 100ms;
+    }
+
+    .projects__img:nth-child(3) {
+        transition-delay: 100ms;
+    }
+
+    .projects__img:nth-child(4) {
+        transition-delay: 100ms;
+    }
+
+    .projects__img:nth-child(5) {
+        transition-delay: 100ms;
+    }
+
+    .projects__img:nth-child(6) {
+        transition-delay: 100ms;
+    }
+
+    .projects__img:nth-child(1) {
+        transition-delay: 100ms;
     }
 }
 
